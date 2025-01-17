@@ -60,11 +60,10 @@ This error is shown on the first start, when no database exists. It will be ther
 
 # MPD
 
-To connect from Home Assistant use the following configuration:
+To connect from Home Assistant use the [MPD integration](https://www.home-assistant.io/integrations/mpd/) with the following values:
 
-```yaml
-media_player:
-  - platform: mpd
-    host: 243ffc37-mpd
-    port: 6600
+```text
+host: 68413af6-mpd
+password: <empty>
+port: 6600
 ```
