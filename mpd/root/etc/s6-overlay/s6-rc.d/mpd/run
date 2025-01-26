@@ -42,6 +42,7 @@ else
 			name		"HTTPd Output" \n 
 			port		"8000" \n
 			bitrate		"192" \n
+			always_on	"yes" \n
 		}' >> /etc/mpd.conf
 		bashio::log.info 'HTTPd output enabled'
 	fi
