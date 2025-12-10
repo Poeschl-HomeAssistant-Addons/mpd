@@ -3,7 +3,7 @@ FROM $BUILD_FROM
 
 RUN apk add --no-cache \
         mpc=0.35-r0 \
-        mpd=0.24.5-r0 \
+        mpd=0.24.12-r0 \
         ympd=1.3.0-r12
 
 ENTRYPOINT [ "/init" ]
